@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e8254fed138842939b035573343adcab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e8254fed138842939b035573343adcab" ></div>
+        
+</body>
+<script>    
+    
+            var map_e8254fed138842939b035573343adcab = L.map(
+                "map_e8254fed138842939b035573343adcab",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b71e8c4c700a40d0815fe09d97b98b60 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e8254fed138842939b035573343adcab);
+        
+    
+            var feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca = L.featureGroup(
+                {}
+            ).addTo(map_e8254fed138842939b035573343adcab);
+        
+    
+            var marker_49a08527b81c4730b8df3f6d58c717f9 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_a2441b210d5842ab863571f86b13d269 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_49a08527b81c4730b8df3f6d58c717f9.setIcon(icon_a2441b210d5842ab863571f86b13d269);
+        
+    
+        var popup_1d4380116025447b9cd012418600e18d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78d7985e9253426a9c36c563b069bad8 = $(`<div id="html_78d7985e9253426a9c36c563b069bad8" style="width: 100.0%; height: 100.0%;">Bill Clinton🌍New York, NY</div>`)[0];
+            popup_1d4380116025447b9cd012418600e18d.setContent(html_78d7985e9253426a9c36c563b069bad8);
+        
+
+        marker_49a08527b81c4730b8df3f6d58c717f9.bindPopup(popup_1d4380116025447b9cd012418600e18d)
+        ;
+
+        
+    
+    
+            var marker_c0de783070774fdcac5c417dfbd46ba3 = L.marker(
+                [36.7014631, -118.755997],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_9b70e56da16b47fab8295bc7efd73b99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_c0de783070774fdcac5c417dfbd46ba3.setIcon(icon_9b70e56da16b47fab8295bc7efd73b99);
+        
+    
+        var popup_9937cecce2574434a4a445130b3a3d5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c7ff6c1dc454e49a9f8abe4a7c1fde4 = $(`<div id="html_7c7ff6c1dc454e49a9f8abe4a7c1fde4" style="width: 100.0%; height: 100.0%;">Kamala Harris🌍California</div>`)[0];
+            popup_9937cecce2574434a4a445130b3a3d5f.setContent(html_7c7ff6c1dc454e49a9f8abe4a7c1fde4);
+        
+
+        marker_c0de783070774fdcac5c417dfbd46ba3.bindPopup(popup_9937cecce2574434a4a445130b3a3d5f)
+        ;
+
+        
+    
+    
+            var marker_98dcec1a59524770a557722a4261ca34 = L.marker(
+                [42.3788774, -72.032366],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_e226cc134e3143df87a8229796846ce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_98dcec1a59524770a557722a4261ca34.setIcon(icon_e226cc134e3143df87a8229796846ce5);
+        
+    
+        var popup_7a0bd9c19810443696cd7e27ac5f09fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5aead8834b0549b1b30c7d57c7613a54 = $(`<div id="html_5aead8834b0549b1b30c7d57c7613a54" style="width: 100.0%; height: 100.0%;">Deval "Wear a Mask" Patrick🌍Massachusetts</div>`)[0];
+            popup_7a0bd9c19810443696cd7e27ac5f09fe.setContent(html_5aead8834b0549b1b30c7d57c7613a54);
+        
+
+        marker_98dcec1a59524770a557722a4261ca34.bindPopup(popup_7a0bd9c19810443696cd7e27ac5f09fe)
+        ;
+
+        
+    
+    
+            var marker_02fea9602bae495285eb07e8a5de5c7f = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_7ced813f115a4e9797303f2910460ef2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_02fea9602bae495285eb07e8a5de5c7f.setIcon(icon_7ced813f115a4e9797303f2910460ef2);
+        
+    
+        var popup_f39cbe02a33b4b019951766ad0bb4b11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0f0b158cebd4a3080cf6a02cdeaf61e = $(`<div id="html_c0f0b158cebd4a3080cf6a02cdeaf61e" style="width: 100.0%; height: 100.0%;">Ms. Turnage Young🌍Washington, DC</div>`)[0];
+            popup_f39cbe02a33b4b019951766ad0bb4b11.setContent(html_c0f0b158cebd4a3080cf6a02cdeaf61e);
+        
+
+        marker_02fea9602bae495285eb07e8a5de5c7f.bindPopup(popup_f39cbe02a33b4b019951766ad0bb4b11)
+        ;
+
+        
+    
+    
+            var marker_bba7360e69c34d16956a1174fc4e79cc = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_461ea0d4abe148f58b59b8efab05d1ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_bba7360e69c34d16956a1174fc4e79cc.setIcon(icon_461ea0d4abe148f58b59b8efab05d1ef);
+        
+    
+        var popup_524571270dfd41e9a3d9dea3051436c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3efd4b130b943188e7bdc88dfa86991 = $(`<div id="html_c3efd4b130b943188e7bdc88dfa86991" style="width: 100.0%; height: 100.0%;">Justin Sink🌍Washington, DC</div>`)[0];
+            popup_524571270dfd41e9a3d9dea3051436c1.setContent(html_c3efd4b130b943188e7bdc88dfa86991);
+        
+
+        marker_bba7360e69c34d16956a1174fc4e79cc.bindPopup(popup_524571270dfd41e9a3d9dea3051436c1)
+        ;
+
+        
+    
+    
+            var marker_1830a1021d3544ea9df0b8c14c995f39 = L.marker(
+                [40.7341857, -74.00558],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_e6a3718fb8f040f2b69414df2bb32845 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1830a1021d3544ea9df0b8c14c995f39.setIcon(icon_e6a3718fb8f040f2b69414df2bb32845);
+        
+    
+        var popup_d480be8d00124e07aedb8f80334cabfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f96d084565a743efb3a116c391c87e9e = $(`<div id="html_f96d084565a743efb3a116c391c87e9e" style="width: 100.0%; height: 100.0%;">Cody Keenan🌍West Village, Manhattan</div>`)[0];
+            popup_d480be8d00124e07aedb8f80334cabfe.setContent(html_f96d084565a743efb3a116c391c87e9e);
+        
+
+        marker_1830a1021d3544ea9df0b8c14c995f39.bindPopup(popup_d480be8d00124e07aedb8f80334cabfe)
+        ;
+
+        
+    
+    
+            var marker_edbf18de9c8849dd8f6410209369c655 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_3d29f21ff7574e829445daa28e62440e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_edbf18de9c8849dd8f6410209369c655.setIcon(icon_3d29f21ff7574e829445daa28e62440e);
+        
+    
+        var popup_96782c0683c0462eaf36cd89d4856261 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7883e73f94b74c89a1123a1a6924c220 = $(`<div id="html_7883e73f94b74c89a1123a1a6924c220" style="width: 100.0%; height: 100.0%;">Jen Friedman🌍New York, USA</div>`)[0];
+            popup_96782c0683c0462eaf36cd89d4856261.setContent(html_7883e73f94b74c89a1123a1a6924c220);
+        
+
+        marker_edbf18de9c8849dd8f6410209369c655.bindPopup(popup_96782c0683c0462eaf36cd89d4856261)
+        ;
+
+        
+    
+    
+            var marker_36337aaae3304ed082ced85fc97e9bc5 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_ba86f4506cf249d79ea8336be44828be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_36337aaae3304ed082ced85fc97e9bc5.setIcon(icon_ba86f4506cf249d79ea8336be44828be);
+        
+    
+        var popup_9f7f82b93fe048deb9a82f3bb253493e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73dc807c23e841d79eb5429d42580a60 = $(`<div id="html_73dc807c23e841d79eb5429d42580a60" style="width: 100.0%; height: 100.0%;">Liz Allen🌍Washington, DC</div>`)[0];
+            popup_9f7f82b93fe048deb9a82f3bb253493e.setContent(html_73dc807c23e841d79eb5429d42580a60);
+        
+
+        marker_36337aaae3304ed082ced85fc97e9bc5.bindPopup(popup_9f7f82b93fe048deb9a82f3bb253493e)
+        ;
+
+        
+    
+    
+            var marker_c361f52368a74302adef9f58c25e94b0 = L.marker(
+                [41.8755616, -87.6244212],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_de9459ba5be447e08451ec7e91c92401 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_c361f52368a74302adef9f58c25e94b0.setIcon(icon_de9459ba5be447e08451ec7e91c92401);
+        
+    
+        var popup_6ad4d52f245d4f8ea8553a427ac08a11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e662df5178f41f09328d06648c7c528 = $(`<div id="html_3e662df5178f41f09328d06648c7c528" style="width: 100.0%; height: 100.0%;">Kori Schulman🌍Chicago, IL</div>`)[0];
+            popup_6ad4d52f245d4f8ea8553a427ac08a11.setContent(html_3e662df5178f41f09328d06648c7c528);
+        
+
+        marker_c361f52368a74302adef9f58c25e94b0.bindPopup(popup_6ad4d52f245d4f8ea8553a427ac08a11)
+        ;
+
+        
+    
+    
+            var marker_db1989ba19b3451983295ffcac036462 = L.marker(
+                [41.8755616, -87.6244212],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_b5a56928396c485fa87050ebd17d9b31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_db1989ba19b3451983295ffcac036462.setIcon(icon_b5a56928396c485fa87050ebd17d9b31);
+        
+    
+        var popup_2ae4917c667c49e0a18924b8786f84f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99eebde6048e4004a1ccddaa361c741b = $(`<div id="html_99eebde6048e4004a1ccddaa361c741b" style="width: 100.0%; height: 100.0%;">Josh Earnest🌍Chicago, IL</div>`)[0];
+            popup_2ae4917c667c49e0a18924b8786f84f3.setContent(html_99eebde6048e4004a1ccddaa361c741b);
+        
+
+        marker_db1989ba19b3451983295ffcac036462.bindPopup(popup_2ae4917c667c49e0a18924b8786f84f3)
+        ;
+
+        
+    
+    
+            var marker_8750d71886774892afdea6b71a7ba07e = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_fdd2c7f2a0c34f05b41fae87a8cda13b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_8750d71886774892afdea6b71a7ba07e.setIcon(icon_fdd2c7f2a0c34f05b41fae87a8cda13b);
+        
+    
+        var popup_b7333d22f929410093874ba2886e7a4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66d9620d77734cc591cf21771e0f4a1b = $(`<div id="html_66d9620d77734cc591cf21771e0f4a1b" style="width: 100.0%; height: 100.0%;">Cecilia Muñoz🌍Washington, DC</div>`)[0];
+            popup_b7333d22f929410093874ba2886e7a4a.setContent(html_66d9620d77734cc591cf21771e0f4a1b);
+        
+
+        marker_8750d71886774892afdea6b71a7ba07e.bindPopup(popup_b7333d22f929410093874ba2886e7a4a)
+        ;
+
+        
+    
+    
+            var marker_3ce26da0efcf46acbc8c18629cdfddf8 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_2b35045bac8c4e2e912751f76c88dbc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_3ce26da0efcf46acbc8c18629cdfddf8.setIcon(icon_2b35045bac8c4e2e912751f76c88dbc2);
+        
+    
+        var popup_cafb5b88d72241988aa561296e578fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7eec78da5054cb5a37c689b0a1f4575 = $(`<div id="html_f7eec78da5054cb5a37c689b0a1f4575" style="width: 100.0%; height: 100.0%;">Eric Schultz🌍Washington, DC</div>`)[0];
+            popup_cafb5b88d72241988aa561296e578fc0.setContent(html_f7eec78da5054cb5a37c689b0a1f4575);
+        
+
+        marker_3ce26da0efcf46acbc8c18629cdfddf8.bindPopup(popup_cafb5b88d72241988aa561296e578fc0)
+        ;
+
+        
+    
+    
+            var marker_a024ff861a2f42aa92a28035d94a4274 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_e628acfcce164d178888bb5654a2a734 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a024ff861a2f42aa92a28035d94a4274.setIcon(icon_e628acfcce164d178888bb5654a2a734);
+        
+    
+        var popup_d9b2e6d6b542466681f908d365b0c826 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bbff1922ebe4703a8dfd1eaef51eb50 = $(`<div id="html_6bbff1922ebe4703a8dfd1eaef51eb50" style="width: 100.0%; height: 100.0%;">Ben Rhodes🌍Washington, DC</div>`)[0];
+            popup_d9b2e6d6b542466681f908d365b0c826.setContent(html_6bbff1922ebe4703a8dfd1eaef51eb50);
+        
+
+        marker_a024ff861a2f42aa92a28035d94a4274.bindPopup(popup_d9b2e6d6b542466681f908d365b0c826)
+        ;
+
+        
+    
+    
+            var marker_a787a82a229549b98e4e4cf5342acbf2 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_4a25416514cf4e5b935df8166baa5579 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_a787a82a229549b98e4e4cf5342acbf2.setIcon(icon_4a25416514cf4e5b935df8166baa5579);
+        
+    
+        var popup_01a79a3862c243ebadfeb97bd9758d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a32471630466448d80fb9146999a12dc = $(`<div id="html_a32471630466448d80fb9146999a12dc" style="width: 100.0%; height: 100.0%;">Susan Rice🌍Washington, DC</div>`)[0];
+            popup_01a79a3862c243ebadfeb97bd9758d86.setContent(html_a32471630466448d80fb9146999a12dc);
+        
+
+        marker_a787a82a229549b98e4e4cf5342acbf2.bindPopup(popup_01a79a3862c243ebadfeb97bd9758d86)
+        ;
+
+        
+    
+    
+            var marker_9767a432c56842afae7167be18becb1c = L.marker(
+                [38.9328317, -76.9842259],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_ed9f2491a46c487b96f42959633150a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9767a432c56842afae7167be18becb1c.setIcon(icon_ed9f2491a46c487b96f42959633150a0);
+        
+    
+        var popup_a5d85d7e1f8644c7bafe5a022a10dea7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_694de4270d0340aea5b2d020678ef118 = $(`<div id="html_694de4270d0340aea5b2d020678ef118" style="width: 100.0%; height: 100.0%;">Paulette Aniskoff🌍Brookland, Washington</div>`)[0];
+            popup_a5d85d7e1f8644c7bafe5a022a10dea7.setContent(html_694de4270d0340aea5b2d020678ef118);
+        
+
+        marker_9767a432c56842afae7167be18becb1c.bindPopup(popup_a5d85d7e1f8644c7bafe5a022a10dea7)
+        ;
+
+        
+    
+    
+            var marker_5afa7cef1d8b4f62b89184e175e426a1 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_6b85c2a4103d4f86bbbfb888891a1d3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5afa7cef1d8b4f62b89184e175e426a1.setIcon(icon_6b85c2a4103d4f86bbbfb888891a1d3d);
+        
+    
+        var popup_383dc3f8a21148cabcdb5c723123e6af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76da625218424c3d855c1a3e03a4743c = $(`<div id="html_76da625218424c3d855c1a3e03a4743c" style="width: 100.0%; height: 100.0%;">Denis McDonough🌍Washington, DC</div>`)[0];
+            popup_383dc3f8a21148cabcdb5c723123e6af.setContent(html_76da625218424c3d855c1a3e03a4743c);
+        
+
+        marker_5afa7cef1d8b4f62b89184e175e426a1.bindPopup(popup_383dc3f8a21148cabcdb5c723123e6af)
+        ;
+
+        
+    
+    
+            var marker_5d7755b6f0734bc292b8c8e1a0681cff = L.marker(
+                [37.7790262, -122.4199061],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_15cbe383b54741e5b83ed27e3b9a85c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5d7755b6f0734bc292b8c8e1a0681cff.setIcon(icon_15cbe383b54741e5b83ed27e3b9a85c3);
+        
+    
+        var popup_b33a8e71724a4b71bbe32d11d14fd32e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a1e4937285140da98d4e059eea35d3c = $(`<div id="html_7a1e4937285140da98d4e059eea35d3c" style="width: 100.0%; height: 100.0%;">Ben Finkenbinder🌍San Francisco, CA</div>`)[0];
+            popup_b33a8e71724a4b71bbe32d11d14fd32e.setContent(html_7a1e4937285140da98d4e059eea35d3c);
+        
+
+        marker_5d7755b6f0734bc292b8c8e1a0681cff.bindPopup(popup_b33a8e71724a4b71bbe32d11d14fd32e)
+        ;
+
+        
+    
+    
+            var marker_45c1d0c86dec4a7cab6610caa5722515 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(feature_group_d29fc316cb8143eb8ba8fa3c1d2f83ca);
+        
+    
+            var icon_73ddef60ef464f47aa75ae5b7b65aeaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_45c1d0c86dec4a7cab6610caa5722515.setIcon(icon_73ddef60ef464f47aa75ae5b7b65aeaf);
+        
+    
+        var popup_2b515fc49ff94d9d8e892291d2636bb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_416c36ba79554f98a6958eaebccc39f9 = $(`<div id="html_416c36ba79554f98a6958eaebccc39f9" style="width: 100.0%; height: 100.0%;">Alex Wall🌍Washington, DC</div>`)[0];
+            popup_2b515fc49ff94d9d8e892291d2636bb1.setContent(html_416c36ba79554f98a6958eaebccc39f9);
+        
+
+        marker_45c1d0c86dec4a7cab6610caa5722515.bindPopup(popup_2b515fc49ff94d9d8e892291d2636bb1)
+        ;
+
+        
+    
+</script>
