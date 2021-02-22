@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Write Twitter user's nickname.</h1>
+<form action="/register" method="post">
+    <input name="nickname" placeholder="Nickname" type="text"/>
+    <input name="bearer_token" placeholder="Bearer token" type="text"/>
+    <input type="submit" value="Generate a map"/>
+</form>
+{% endblock %}
