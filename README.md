@@ -7,7 +7,8 @@ It has a separated module for navigation through the json-files.
 ## Installation
 
 To use the program clone the repository
-via GitHub (https://github.com/karyna-volokhatiuk/Twitter-Friends-Map.git).
+via GitHub (https://github.com/karyna-volokhatiuk/Twitter-Friends-Map.git)
+or follow this link http://karynavolokhatiuk.pythonanywhere.com/.
 
 ## Usage
 
