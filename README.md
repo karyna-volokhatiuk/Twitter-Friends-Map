@@ -28,8 +28,8 @@ If input information is right, the world map with friends' locations will be gen
 
 ![friends_map](friends_map.png?raw=true'friends_map')
 
-To use a separated module for navigation through the json-files user should run 'info_from_json.py'
-from folder 'info_from_json' and answwers questions to go to needed information from json file.
+To use a separated module for navigation through the json-files user should run 'navigation_json.py'
+from folder 'navigation_json' and answwer questions to find information needed from json file.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
