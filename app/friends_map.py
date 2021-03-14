@@ -49,8 +49,3 @@ def generate_map(coordinates_of_friends_list: list) -> None:
     friends_map.add_child(fg_markers)
 
     friends_map.save('app/templates/twitter_friends_map.html')
-
-locations_of_friends_list = [['Niki Jennings', ''], ['Bill Clinton', 'New York, NY'], ['Kamala Harris', 'California'], ["My Brother's Keeper Alliance", ''], ['Robert Wolf', ''], ['David Plouffe', ''], ['Deval "Wear a Mask" Patrick', 'Massachusetts'], ['John Doerr', ''], ['Ms. Turnage Young', 'Washington, DC'], ['Justin Sink', 'Washington, DC'], ['Cody Keenan', 'West Village, Manhattan'], ['Jen Friedman', 'New York, USA'], ['Liz Allen', 'Washington, DC'], ['Kori Schulman', 'Chicago, IL'], ['Dan Pfeiffer', ''], ['Valerie Jarrett', ''], ['Josh Earnest', 'Chicago, IL'], ['Cecilia Muñoz', 'Washington, \
-DC'], ['Eric Schultz', 'Washington, DC'], ['Ben Rhodes', 'Washington, DC'], ['Susan Rice', 'Washington, DC'], ['Brian Deese', ''], ['Paulette Aniskoff', 'Brookland, Washington'], ['Denis McDonough', 'Washington, DC'], ['Broderick Johnson', ''], ['David Simas', ''], ['The Obama Foundation', ''], ['Ben Finkenbinder', 'San Francisco, CA'], ['Alex Wall', 'Washington, DC'], ['Jon Carson OFA', '']]
-
-generate_map(add_coordinates_to_list(locations_of_friends_list))
